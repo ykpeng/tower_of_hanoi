@@ -1,0 +1,52 @@
+.hanoi {
+
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+  float:left;
+  width: 100px;
+  border-bottom: 5px solid #000;
+  /*background: blue;*/
+  margin: 20px;
+}
+
+li {
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 40%;
+}
+
+._1 {
+  background: grey;
+  width: 20px;
+
+}
+
+._2 {
+  background: grey;
+  width: 60px;
+}
+
+._3 {
+  background: grey;
+  width: 100px;
+}
+
+.green {
+  background: green;
+}
+
+ul:not(.clicked):hover {
+  border-bottom: 5px solid blue;
+}
+
+.clicked {
+  border-bottom: 5px solid red;
+}
